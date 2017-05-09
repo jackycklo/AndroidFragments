@@ -12,6 +12,16 @@ import android.view.ViewGroup;
  */
 
 public class FragmentLandscape extends Fragment {
+
+       /*
+     LayoutInflator takes the provided xml layout and puts it in a view
+     container is the view the fragment should be attached to
+     savedInstanceState is passed if the fragment is being re-constructed from a saved state
+
+     inflate() is passed the layout xml to place, the optional view to attach to and
+     true or false on whether to attach to the optional view named container
+      */
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
